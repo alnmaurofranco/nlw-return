@@ -21,6 +21,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 * [PrismaORM](https://prisma.io/) - Next-generation Node.js and TypeScript ORM
 * [PostgreSQL](https://www.postgresql.org/) - The World's Most Advanced Open Source Relational Database
 * [Docker](https://www.docker.com/) - Developers Love Docker. Businesses Trust It.
+* [Jest](https://jestjs.io/) - Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+* [SWC](https://swc.rs/) - SWC is 20x faster than Babel on a single thread and 70x faster on four cores.
 
 <p>
 <img src="https://cdn.svgporn.com/logos/typescript-icon.svg" alt="typescript" width="45" height="45" style="margin-left: 5px;"/>
@@ -32,8 +34,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <img src="https://cdn.svgporn.com/logos/prisma.svg" alt="prisma" width="45" height="45" style="margin-left: 5px;"/>
 <img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="postgresql" width="45" height="45" style="margin-left: 5px;"/>
 <img src="https://cdn.svgporn.com/logos/docker-icon.svg" alt="docker" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/jest.svg" alt="jest" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/swc.svg" alt="swc" width="45" height="45" style="margin-left: 5px;"/>
 
 ## ✨ Funcionalidades
+- ✅ 
 
 ## 👨🏼‍💻 Como executar
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
@@ -55,11 +60,21 @@ git clone https://github.com/alnmaurofranco/nlw-return
 ```bash
 cd nlw-return
 ```
-- Instale as dependências de cada projeto com (yarn ou npm) nesse exemplo estou usando **yarn**
+- Instale as dependências de cada projeto com (pnpm, yarn ou npm) nesse exemplo estou usando **pnpm** e vou primeiramente executar na pasta web
 ```bash
-yarn install
+cd web && pnpm install
 ```
+- ⚠ IMPORTANTE! Faça isso também para as pastas (backend e mobile)
 ### ⚙️ *Executando os testes*
+A seguir iremos executar os testes da aplicação, vamos para a pasta **backend**
+```bash
+cd backend
+```
+- Agora executamos o seguinte comando:
+```bash
+pnpm test
+```
+- *Pronto, teste da aplicação **backend** foi realizado.*
 
 ## 💫 Desafios
 
