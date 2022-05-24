@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 3333
 
-CMD ["pnpm", "start:dev"]
+CMD ["pnpm", "start"]
