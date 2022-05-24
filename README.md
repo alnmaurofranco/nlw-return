@@ -7,6 +7,7 @@
 ## ✅ Demostração
 
 ## 🎉 Sobre o projeto
+Esse projeto foi desenvolvido durante a semana do NLW do mês de maio de 2022, essa aplicação conta com uma funcionalidade de feedback para problemas que estão ocorrendo, novas ideias ou outros assuntos.
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -38,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <img src="https://cdn.svgporn.com/logos/swc.svg" alt="swc" width="45" height="45" style="margin-left: 5px;"/>
 
 ## ✨ Funcionalidades
-- ✅ 
+- ✅ Feedback, para relatar algum problema, ideia ou até mesmo outros assuntos.
 
 ## 👨🏼‍💻 Como executar
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
@@ -75,8 +76,6 @@ cd backend
 pnpm test
 ```
 - *Pronto, teste da aplicação **backend** foi realizado.*
-
-## 💫 Desafios
 
 ## 📝 Licença
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE) para detalhes.
