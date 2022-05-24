@@ -4,12 +4,11 @@ import express, { Application } from "express";
 import cors from "cors";
 import { router } from "./routes";
 
-const { EXPRESS_ON_PORT, ROUTER_PREFIX, ORIGIN_URL_PRODUCTION } =
-  process.env as {
-    [key: string]: string;
-  };
+const { PORT, ROUTER_PREFIX, ORIGIN_URL_PRODUCTION } = process.env as {
+  [key: string]: string;
+};
 
-const PORT = Number(EXPRESS_ON_PORT) || 4444;
+const EXPRESS_ON_PORT = PORT || 4444;
 
 function bootstrap() {
   const app: Application = express();
@@ -24,7 +23,7 @@ function bootstrap() {
 
   app.use(ROUTER_PREFIX, router);
 
-  app.listen(PORT, () =>
+  app.listen(EXPRESS_ON_PORT, () =>
     console.log(`HTTP server running on http://localhost:${PORT} 🚀`)
   );
 }
