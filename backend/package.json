@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "ts-node-dev --respawn --transpile-only --clear --exit-child ./src/infra/http/main.ts",
-    "test": "jest"
+    "build": "npx tsc",
+    "test": "jest",
+    "start": "node dist/infra/http/main.js"
   },
   "keywords": [],
   "author": "alnmaurofranco",
