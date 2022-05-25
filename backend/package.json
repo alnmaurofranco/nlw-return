@@ -8,7 +8,8 @@
     "build": "npx tsc",
     "test": "jest",
     "start": "node dist/infra/http/main.js",
-    "prisma:deploy": "npx prisma migrate deploy"
+    "prisma:deploy": "npx prisma migrate deploy",
+    "start:prod": "npx prisma migrate deploy && node dist/infra/http/main.js"
   },
   "keywords": [],
   "author": "alnmaurofranco",

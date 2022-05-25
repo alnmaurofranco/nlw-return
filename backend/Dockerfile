@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 3333
 
-CMD ["pnpm", "prisma:deploy", "pnpm", "start"]
+CMD ["pnpm", "start:prod"]
