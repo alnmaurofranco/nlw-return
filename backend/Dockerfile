@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 3333
 
-CMD ["npx prisma migrate deploy", "&&", "pnpm", "start"]
+CMD ["pnpm", "prisma:deploy", "pnpm", "start"]

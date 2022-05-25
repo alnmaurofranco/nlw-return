@@ -7,7 +7,8 @@
     "start:dev": "ts-node-dev --respawn --transpile-only --clear --exit-child ./src/infra/http/main.ts",
     "build": "npx tsc",
     "test": "jest",
-    "start": "node dist/infra/http/main.js"
+    "start": "node dist/infra/http/main.js",
+    "prisma:deploy": "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "alnmaurofranco",
