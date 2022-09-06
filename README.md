@@ -66,7 +66,7 @@ cd nlw-return
 ```bash
 cd web && pnpm install
 ```
-- ⚠ IMPORTANTE! Faça isso também para as pastas (backend e mobile)
+- ⚠ IMPORTANTE! Faça isso também para a pasta (backend)
 ### ⚙️ *Executando os testes*
 A seguir iremos executar os testes da aplicação, vamos para a pasta **backend**
 ```bash
